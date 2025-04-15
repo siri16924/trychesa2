@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <audio autoplay loop>
+    <source src="your-audio-file.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Personal Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+
+<h1 class="scary-text">You shouldn't have come here...</h1>
+
+</head>
+<body>
+  <!-- Welcome Screen -->
+  <div id="welcome-screen">
+    <div class="welcome-content">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <h1 class="scary-text">LEAVE BEFORE ITS TOO LATE</h1>
+
+    <p class="scary-text">SCROLL DOWN</p>
+
+      <div class="scroll-indicator">
+        <span class="arrow">↓</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="go_back">
+    <div class="go_back?">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <h1 class="scary-text">STILL HERE?</h1>
+
+    <p class="scary-text">SCROLL DOWN</p>
+
+      <div class="scroll-indicator">
+        <span class="arrow">↓</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main-content">
+    <header>
+      <p class="scary-text2">You have stumbled into my domain...Enter at your own risk</p>
+      <div class="buttons">
+        <button onclick="scrollToSection('about')">About Me</button>
+        <button onclick="scrollToSection('education')">Education</button>
+        <button onclick="scrollToSection('skills')">Skills</button>
+        <button onclick="scrollToSection('cv')">Download CV</button>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="about">
+        <h2 class="scary-text2">About Me</h2>
+        <img src="images/profile.png" alt="My Profile Picture">
+        <p>Hi! I'm Sree Chandana, from Telanaga. I love building things, exploring new ideas, and creating meaningful digital experiences. When I'm not coding, you'll probably find me sketching, listening to music/podcasts or playing chess!</p>
+        <div class="gallery">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AB5caB_gLX2ZHl42LWVhAqMlG5fvsMhtYrJCDs0eZlRiu9A02rwzmQPHR1PSUhl3ZTBfQCUdfvkQIeWB0OkdMPhAdS_HPsZM6CAQRcsafUaLaXMnsJarvjXxFs7mvr7CPcpHRPcWJJ8p=w810-h468-n-k-no" alt="Place 1">
+          <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSSNEo1Cm8D-lOB7Lh4yWCvcdSIHkAkawNHEd0fOzs2pbjdOnI6zVtOWlZcy4rSRrH5kT6cGlinzhZJVbJCivtJlqWrEg52ZOtSr8LN5IM" alt="Place 2">
+        </div>
+      </section>
+
+      <section id="education">
+        <h2 class="scary-text2">Education & Achievements</h2>
+        <p>
+           I studied at Vignan, Sri Chaitanya, followed by Narayana Junior College.<br>
+           I'm currently pursuing B.Tech, specializing in Computer Science.<br>
+           Achievements:<br>
+          - Scored 10 points in 10th board exams and 98.2% in intermediate.<br>
+          - Secured 99.94 percentile and AIR 1056 in JEE Mains 2024.<br>
+          - Secured AIR 2850 in JEE Advanced 2024.<br>
+        </p>
+      </section>
+    </div>
+
+    <div class="container">
+      <section id="skills">
+        <h2 class="scary-text2">Technical Skills</h2>
+        <ul>
+          <li><strong>Exploring:</strong> HTML, CSS, JavaScript</li>
+        </ul>
+      </section>
+
+      <section id="cv">
+        <h2 class="scary-text2">Hire Me... or Else</h2>
+        <a class="cv-link" href="CV.pdf" target="_blank" download>Download My CV (PDF)</a>
+      </section>
+    </div>
+
+    <section id="analyzer">
+      <h2 class="scary-text2">Text Analyzer</h2>
+      <textarea id="textInput" rows="10" cols="80" placeholder="Paste your text here..."></textarea><br>
+      <button class="analyze-button" onclick="analyzeText()">Analyze</button>
+      <pre id="output"></pre>
+    </section>
+
+    <section id="more">
+      <h2 class="scary-text2">More</h2>
+      <button onclick="location.href='more.html'" class="redirect-button">Explore the shadows of my free time →</button>
+    </section>
+
+    <footer>
+      <p>© 2025 Sree Chandana | Made with ☕ and ❤️ | <a href="https://github.com/siri-16924">GitHub</a></p>
+    </footer>
+  </div>
+</body>
+</html>
